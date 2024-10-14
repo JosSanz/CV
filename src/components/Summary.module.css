@@ -1,0 +1,3 @@
+.summary-text {
+    @apply text-neutral-900 text-justify text-sm;
+}

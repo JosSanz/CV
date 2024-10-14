@@ -1,0 +1,27 @@
+.header {
+    @apply space-y-2;
+}
+
+.full-name {
+    @apply text-blue-900 text-4xl uppercase font-bold;
+}
+
+.position {
+    @apply text-xl text-orange-600 font-bold;
+}
+
+.info {
+    @apply grid grid-cols-3 gap-2;
+}
+
+.info-item {
+    @apply flex items-center gap-1;
+}
+
+.info-item__icon {
+    @apply text-orange-600 size-4;
+}
+
+.info-item__text {
+    @apply text-neutral-900 text-xs font-bold;
+}

@@ -1,0 +1,29 @@
+.education-item {
+    @apply grid gap-4;
+    grid-template-columns: 120px 1fr;
+}
+
+.education-item__place {
+    @apply space-y-2;
+}
+
+.education-item__period {
+    @apply text-blue-900 font-bold;
+}
+
+.education-item__details {
+    @apply space-y-1 border-l-2 border-blue-900 pl-4 relative;
+}
+
+.education-item__details::before {
+    content: '';
+    @apply bg-blue-900 absolute top-0 -left-1 size-2 rounded-full;
+}
+
+.education-item__title {
+    @apply text-blue-900 text-xl;
+}
+
+.education-item__institution {
+    @apply text-sm text-orange-600 font-bold;
+}

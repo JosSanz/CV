@@ -1,0 +1,37 @@
+.experience-item {
+    @apply grid gap-4;
+    grid-template-columns: 120px 1fr;
+}
+
+.experience-item__place {
+    @apply space-y-2;
+}
+
+.experience-item__period {
+    @apply text-blue-900 font-bold;
+}
+
+.experience-item__ubication {
+    @apply text-sm text-neutral-900;
+}
+
+.experience-item__details {
+    @apply space-y-1 border-l-2 border-blue-900 pl-4 relative;
+}
+
+.experience-item__details::before {
+    content: '';
+    @apply bg-blue-900 absolute top-0 -left-1 size-2 rounded-full;
+}
+
+.experience-item__position {
+    @apply text-blue-900 text-xl;
+}
+
+.experience-item__institution {
+    @apply text-sm text-orange-600 font-bold;
+}
+
+.experience-item__activities {
+    @apply text-sm text-neutral-900 list-disc list-inside;
+}
