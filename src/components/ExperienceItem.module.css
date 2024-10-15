@@ -21,7 +21,9 @@
 
 .experience-item__details::before {
     content: '';
-    @apply bg-blue-900 absolute top-0 -left-1 size-2 rounded-full;
+    left: -5px;
+    top: -1px;
+    @apply bg-blue-900 absolute size-2 rounded-full;
 }
 
 .experience-item__position {

@@ -3,7 +3,7 @@
 }
 
 .full-name {
-    @apply text-blue-900 text-4xl uppercase font-bold;
+    @apply text-blue-900 text-center text-4xl uppercase font-bold md:text-start;
 }
 
 .position {
@@ -11,7 +11,7 @@
 }
 
 .info {
-    @apply grid grid-cols-3 gap-2;
+    @apply grid justify-center md:grid-cols-3 gap-2;
 }
 
 .info-item {
